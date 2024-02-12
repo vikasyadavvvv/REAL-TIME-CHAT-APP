@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .header{
+    background-color:black;
+    color: rgb(205, 53, 79);;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+  }
+  .ChatArea{
+    height: 600px;
+    background-color: grey;
+    overflow-y: auto;
+
+  }
+
+  #messages{
+    background-color: rgb(205, 53, 79);
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 16px;
+  }
+  
+  form button {
+    padding: 10px;
+  }
+  #button{
+    background-color: rgb(205, 53, 79);
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+    border-color: rgb(205, 53, 79);
+    height: 40px;
+    width: 100px;
+  }
+  

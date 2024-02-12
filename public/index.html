@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Real-time Chat App</title>
+</head>
+<body>
+    <div class="container"> <!--container-->
+        <div class="header">  <!--header-->
+            <h1>𝒞𝐻𝒜𝒯𝒯𝐼𝐸$</h1>
+        </div> <!--header-->
+
+        <div class="ChatArea"> <!--ChatArea-->
+  <ul id="messages"></ul>
+        </div>  <!--ChatArea-->
+  <form id="form" action="">
+    <input id="m" autocomplete="off" /><button type="button" id="button">Send</button>
+  </form>
+  </div>  <!--container-->
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
