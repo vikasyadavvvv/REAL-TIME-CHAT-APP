@@ -1,4 +1,4 @@
-This Project is build using Html, Css ,Javascript, Nodejs, Express and Socket.io
+This Project is build using HTML, CSS ,Javascript, Nodejs, Express and Socket.io
 
 The 1st step : Open terminal in Visual studio code and write "npm init -y", hit Enter button .It creates a node module files which is required<br>
 The 2nd step : Write in terminal "npm install express socket.io" , hit Enter button.This will install the express and socket .Socket is used for real time application <br>
